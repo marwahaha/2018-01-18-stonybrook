@@ -202,7 +202,7 @@ eventbrite: "40793102267"          # optional: alphanumeric key for Eventbrite r
 <p>Ask your instructor about pre- and post-workshop Survey details.</p>
 {% endif %}
 
-<p>Schedule is tentative.</p>
+<h4>Schedule is tentative.</h4>
 {% if page.carpentry == "swc" %}
   {% include sc/schedule.html %}
 {% elsif page.carpentry == "dc" %}
